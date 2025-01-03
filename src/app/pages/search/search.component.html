@@ -1,0 +1,80 @@
+<div class="container" style="font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <header class="my-4" style="text-align: center; margin-bottom: 30px;">
+        <h1 style="font-size: 2.5rem; color: #dc3545;">Bus Booking System</h1>
+    </header>
+
+    <!-- Search Form -->
+    <section style="margin-bottom: 40px;">
+        <div style="display: flex; justify-content: center; margin-top: 30px;">
+            <form style="display: flex; align-items: center; background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 100%; max-width: 900px;">
+                <div style="display: flex; flex-grow: 1; gap: 15px;">
+                    <div style="flex: 1;">
+                        <div style="display: flex; align-items: center; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+                            <span style="background-color: #dc3545; color: white; padding: 10px;"><i class="bi bi-bus-front"></i></span>
+                            <input type="text" placeholder="From" value="Nagpur" style="flex: 1; border: none; padding: 10px; outline: none;" />
+                        </div>
+                    </div>
+                    <div style="flex: 0.1; text-align: center; font-size: 1.5rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="bi bi-arrow-left-right"></i>
+                    </div>
+                    <div style="flex: 1;">
+                        <div style="display: flex; align-items: center; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+                            <span style="background-color: #dc3545; color: white; padding: 10px;"><i class="bi bi-bus-front"></i></span>
+                            <input type="text" placeholder="To" value="Pune" style="flex: 1; border: none; padding: 10px; outline: none;" />
+                        </div>
+                    </div>
+                    <div style="flex: 1;">
+                        <div style="display: flex; align-items: center; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+                            <span style="background-color: #dc3545; color: white; padding: 10px;"><i class="bi bi-calendar"></i></span>
+                            <input type="text" placeholder="Date" value="17 Aug 2024" style="flex: 1; border: none; padding: 10px; outline: none;" />
+                        </div>
+                    </div>
+                    <div style="flex: 0.5; text-align: center;">
+                        <button type="submit" style="background-color: #dc3545; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; cursor: pointer; width: 100%;">SEARCH BUSES</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Buses List -->
+    <section id="buses-list" style="margin-top: 40px;">
+        <h2 style="font-size: 1.8rem; color: #343a40; margin-bottom: 20px;">Available Buses</h2>
+        <div style="margin-bottom: 20px;">
+            <div style="display: flex; flex-direction: column; border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #ffffff;">
+                <div style="display: flex; padding: 20px;">
+                    <div style="flex: 1; text-align: center; border-right: 1px solid #ddd;">
+                        <h5 style="margin: 0; font-size: 1.2rem; color: #dc3545;">IntrCity SmartBus</h5>
+                        <p style="margin: 5px 0; color: #6c757d;">A/C Sleeper (2+1)</p>
+                    </div>
+                    <div style="flex: 4; display: flex; justify-content: space-around; align-items: center;">
+                        <div>
+                            <p style="margin: 0; font-weight: bold;">19:00</p>
+                            <p style="margin: 0; color: #6c757d;">Departure</p>
+                        </div>
+                        <div>
+                            <p style="margin: 0; font-weight: bold;">13h 55m</p>
+                            <p style="margin: 0; color: #6c757d;">Duration</p>
+                        </div>
+                        <div>
+                            <p style="margin: 0; font-weight: bold;">08:55</p>
+                            <p style="margin: 0; color: #6c757d;">Arrival</p>
+                            <p style="margin: 0; color: #dc3545;">18-Aug</p>
+                        </div>
+                        <div>
+                            <p style="margin: 0; font-weight: bold;">4.5 ⭐</p>
+                            <p style="margin: 0; color: #6c757d;">567 Ratings</p>
+                        </div>
+                        <div>
+                            <p style="margin: 0; font-weight: bold;">INR 935</p>
+                            <p style="margin: 0; color: #6c757d;">8 Seats available</p>
+                        </div>
+                        <div>
+                            <button style="background-color: #dc3545; color: white; border: none; padding: 10px 15px; border-radius: 5px; font-weight: bold; cursor: pointer;">VIEW SEATS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
